@@ -15,12 +15,14 @@ body {
       text-align: center;
     }
 
-    .hero img {
-      width: 600px;
-      height: 400px;
-      object-fit: fill;
-      display: block;
-    }
+   .hero img {
+  width: 600px;
+  height: 400px;
+  object-fit: cover;
+  display: block;
+  flex-shrink: 0; /* optional: prevent auto-resize */
+}
+
 
     .explore-btn {
       padding: 10px 20px;
