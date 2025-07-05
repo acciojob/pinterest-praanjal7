@@ -1,34 +1,33 @@
 body {
-      margin: 0;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background-color: #fff;
-    }
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fff;
+}
 
-    .hero {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      padding: 40px;
-    }
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  gap: 40px;
+}
 
-    h1, p {
-      text-align: center;
-    }
-
-   .hero img {
+.hero img {
   width: 600px;
   height: 400px;
   object-fit: cover;
   display: block;
-  flex-shrink: 0; /* optional: prevent auto-resize */
 }
 
+.hero-text h1, .hero-text p {
+  text-align: center;
+}
 
-    .explore-btn {
-      padding: 10px 20px;
-      background-color: #e60023;
-      color: white;
-      text-decoration: none;
-      border-radius: 5px;
-      font-weight: bold;
-    }
+.explore-btn {
+  padding: 10px 20px;
+  background-color: #e60023;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
