@@ -18,7 +18,7 @@ body {
     .hero img {
       width: 600px;
       height: 400px;
-      object-fit: cover;
+      object-fit: fill;
       display: block;
     }
 
